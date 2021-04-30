@@ -10,7 +10,7 @@ source:
   sha256: efb6ee624aee3b296f2d49b8739243a19641afb7da20ebd187e4f79b2866ae47
 
 build:
-  number: 1
+  number: 2
   script: "{{ PYTHON }} -m pip install . -vv"
   skip: True  # [not osx]
 
@@ -37,6 +37,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - mxr-conda
     - ndmaxar
     - rluria14
     - oblute
