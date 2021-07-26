@@ -28,9 +28,9 @@ test:
 
 about:
   home: https://github.com/rdhyee/py-applescript
-  license: CC-PDDC
+  license:  CC0-1.0
   license_family: Public-Domain
-  license_file: # none, issue here: https://github.com/rdhyee/py-applescript/issues/5
+  license_file: LICENSE
   summary: "An easy-to-use Python wrapper for NSAppleScript, allowing Python scripts to communicate with AppleScripts and AppleScriptable applications."
   doc_url: https://pypi.org/project/py-applescript
   dev_url: https://github.com/rdhyee/py-applescript
