@@ -20,9 +20,7 @@ requirements:
     - python >=3
   run:
     - python >=3
-    - pyobjc-core
-    - pyobjc-framework-AppleScriptKit
-    - pyobjc-framework-AppleScriptObjC
+    - pyobjc-framework-cocoa
     - __osx
 
 test:
