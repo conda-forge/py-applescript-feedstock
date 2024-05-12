@@ -1,5 +1,5 @@
 {% set name = "py-applescript" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,12 +7,12 @@ package:
 
 source:
   url: "https://github.com/rdhyee/py-applescript/archive/{{ version }}.tar.gz"
-  sha256: 22edcf44806e6da0d31fba48dd8b504c7d4aed3695b54b058177d7c97b072369
+  sha256: b18a07826f82f56b033997bf7d17b9b0314a8f37ae2eb163f8c77fa82ee3ab09
 
 build:
-  number: 3
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
-  skip: True  # [not osx]
+  skip: true  # [not osx]
 
 requirements:
   host:
@@ -28,7 +28,7 @@ test:
 
 about:
   home: https://github.com/rdhyee/py-applescript
-  license:  CC0-1.0
+  license: CC0-1.0
   license_family: Public-Domain
   license_file: LICENSE
   summary: "An easy-to-use Python wrapper for NSAppleScript, allowing Python scripts to communicate with AppleScripts and AppleScriptable applications."
